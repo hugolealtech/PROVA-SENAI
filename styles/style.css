@@ -1,3 +1,5 @@
+
+
 #header {
     width: 100%; /* Garante que o header ocupe 100% da largura */
 }
@@ -8,7 +10,7 @@
 }
 
 .navbar-brand, .nav-link, .name {
-    color: rgb(109, 111, 152) !important; /* Cor da fonte branca */
+    color: white
 }
 
 .navbar-nav .nav-link {
@@ -32,8 +34,11 @@
     width: 100%;
     height: auto;
     display: flex;
-    margin-top:50px;
-    background-color: antiquewhite;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: aliceblue;
+ 
+   
 
     
 }
@@ -58,6 +63,10 @@
     align-items: center;
     justify-content: center;
    
+}
+#imgTitulo2 img{
+    width: 100%;
+    height: 200px;
 }
 
 #imgTitulo img{
@@ -87,29 +96,24 @@
 
 #imgTitulo2 img{
 
-    width: 40%;
+    width: 50%;
     height: auto;
     display: flex;
     border-radius: 5%;
    
 }
 
-#tituloSite3{
-
-    width: 70%;
-    height: 500px;
-    background-color: #54d069;
-}
-
 #secao3Form{
 
     
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-content: start;
     gap: 20px;
+    padding-top: 20px;
+   
    
 }
 
@@ -118,5 +122,100 @@
   width: 60%;
  
 }
+#tituloSite3{
 
+    width: 100%;
+    height: auto;
+   
 
+}
+#cardsNamePlace{
+
+    width: 50%;
+    height: auto;    
+    display: flex;   
+    gap: 20px;
+    color: black;
+    margin: 50px  ;
+}
+#cardsNamePlace img{
+
+    width: 50%;
+    
+}
+.cardDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#imageDescription{
+
+    display: flex;
+    align-content:first baseline;
+    align-items: baseline;
+    font-size: 10px;
+    text-align: justify;
+
+}
+
+#imageDescription img{
+
+    width: 10%;
+    height: auto;
+    border-radius: 100%;
+    
+}
+#section4H1{
+    text-align: center;
+    margin: 20PX 0 0 0;
+    background-color:rgb(196, 190, 190) ;
+}
+
+#section4{
+
+    width: 100%;
+    height: 500px;
+    background-color: rgb(196, 190, 190);
+    display: flex;
+}
+#section4 h1{
+    text-align: center;
+    padding:20px;
+}
+
+#section4Text{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    text-align: justify;
+}
+#section4Img{
+    width: 50%;
+    height: 500px;
+    display: flex;
+}
+
+.section4Imgs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.section4Imgs img{
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #54d069;
+    color: antiquewhite;
+}
