@@ -1,0 +1,13 @@
+#carrosel {
+    width: 100%;
+}
+
+.carousel-img {
+    height: 300px;
+    object-fit: cover; /* Para garantir que a imagem não fique distorcida */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Cor preta para maior visibilidade */
+}

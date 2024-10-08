@@ -1,19 +1,41 @@
 class Cartao {
-
-    constructor (srcImg,titulo, subtitulo, descricao ){
-
+    constructor(srcImg, titulo, subtitulo, descricao, srcImg2, nomePost) {
         this.srcImg = srcImg;
         this.titulo = titulo;
         this.subtitulo = subtitulo;
         this.descricao = descricao;
+        this.srcImg2 = srcImg2;
+        this.nomePost = nomePost;
     }
 }
 
 var todosCartoes = [];
 
-todosCartoes.push(new Cartao (""));
+todosCartoes.push(new Cartao(
+    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "RIO DA FELICIDADE", 
+    "Um lugar de paz e tranquilidade", 
+    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
+));
 
-todosCartoes.forEach(cadaCartao) =>{
+todosCartoes.forEach((cadaCartao) => {
+    document.querySelector("#tituloSite3").innerHTML += `
 
-    document.querySelector(#secao3)
-}
+        <div id="tituloSite3">
+            <div id="cardsNamePlace">
+                <img class="img-thumbnail" class="w-50" class="card-img" src="${cadaCartao.srcImg}" alt="">
+                <div class="cardDescription">
+                    <h3>${cadaCartao.titulo}</h3>
+                    <h4>${cadaCartao.subtitulo}</h4> 
+                    <p>${cadaCartao.descricao}</p>
+                    <div id="imageDescription">
+                        <img src="${cadaCartao.srcImg2}" alt="">
+                        <p>Post por ${cadaCartao.nomePost}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+});
