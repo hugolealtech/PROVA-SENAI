@@ -1,0 +1,122 @@
+#header {
+    width: 100%; /* Garante que o header ocupe 100% da largura */
+}
+
+.bg-custom {
+    background-color: #54d069; /* Cor de fundo escura (pode ser alterada) */
+    width: 100%;
+}
+
+.navbar-brand, .nav-link, .name {
+    color: rgb(109, 111, 152) !important; /* Cor da fonte branca */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+}
+
+.logo {
+    padding: 10px; /* Adiciona um padding de 10px à imagem */
+    height: 40px; /* Ajuste a altura da imagem conforme necessário */
+}
+
+.name {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    /* Você pode ajustar as margens se necessário */
+}
+
+#secao1,#secao2, #secao3{
+
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top:50px;
+    background-color: antiquewhite;
+
+    
+}
+
+#tituloSite, #tituloSite2,#tituloSite3{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    padding-left: 50px;
+    justify-content:center;
+    flex-direction: column;
+    font-size: 30%;
+    
+}
+#imgTitulo,#imgTitulo2,#secao3Form{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#imgTitulo img{
+
+    width: 40%;
+    height: auto;
+    border-radius: 100%;
+   
+}
+#s2Title
+{
+    width: 100%;
+    text-align: center;
+    margin: 80px;
+}
+
+#tituloSite2{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    padding-left: 50px;
+    justify-content:start;
+    flex-direction: column;
+    font-size: 30%;
+}
+
+#imgTitulo2 img{
+
+    width: 40%;
+    height: auto;
+    display: flex;
+    border-radius: 5%;
+   
+}
+
+#tituloSite3{
+
+    width: 70%;
+    height: 500px;
+    background-color: #54d069;
+}
+
+#secao3Form{
+
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+    gap: 20px;
+   
+}
+
+.form-select{
+
+  width: 60%;
+ 
+}
+
+
