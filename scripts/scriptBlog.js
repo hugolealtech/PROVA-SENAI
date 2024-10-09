@@ -9,8 +9,9 @@ class Cartao {
     }
 }
 
-var todosCartoes = [];
+const todosCartoes = [];
 
+// Adiciona cards ao array
 todosCartoes.push(new Cartao(
     "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
     "RIO DA FELICIDADE", 
@@ -25,8 +26,8 @@ todosCartoes.push(new Cartao(
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
-    "/img/original/time/alice.jpg", 
-    "Alice"
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
 ));
 
 todosCartoes.push(new Cartao(
@@ -34,40 +35,72 @@ todosCartoes.push(new Cartao(
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
-    "/img/original/time/alice.jpg", 
-    "Alice"
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
 ));
-
-
 todosCartoes.push(new Cartao(
     "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
-    "/img/original/time/alice.jpg", 
-    "Alice"
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
+));
+todosCartoes.push(new Cartao(
+    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "RIO DA FELICIDADE", 
+    "Um lugar de paz e tranquilidade", 
+    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
+));
+todosCartoes.push(new Cartao(
+    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "RIO DA FELICIDADE", 
+    "Um lugar de paz e tranquilidade", 
+    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
+));
+todosCartoes.push(new Cartao(
+    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "RIO DA FELICIDADE", 
+    "Um lugar de paz e tranquilidade", 
+    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
+));
+todosCartoes.push(new Cartao(
+    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "RIO DA FELICIDADE", 
+    "Um lugar de paz e tranquilidade", 
+    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
 ));
 
+// Função para renderizar os cards dinamicamente
+function renderizarCartoes() {
+    const container = document.querySelector(".nomeLugarCard");
+    container.innerHTML = ''; // Limpa o conteúdo antes de renderizar os novos cards
 
-
-
-todosCartoes.forEach((cadaCartao) => {
-    document.querySelector(".tituloSite3").innerHTML += `
-
-        <div class="tituloSite3">
-            <div id="cardsNamePlace">
-                <img class="img-thumbnail" class="w-50" class="card-img" src="${cadaCartao.srcImg}" alt="">
-                <div class="cardDescription">
-                    <h3>${cadaCartao.titulo}</h3>
-                    <h4>${cadaCartao.subtitulo}</h4> 
-                    <h5>${cadaCartao.descricao}</h5>
+    todosCartoes.forEach(cadaCartao => {
+        container.innerHTML += `
+            <div class="cartao">
+                <img src="${cadaCartao.srcImg}" alt="Imagem do local" class="img-fluid">
+                <div class="descricaoCards">
+                    <h4>${cadaCartao.titulo}</h4>
+                    <h5>${cadaCartao.subtitulo}</h5> 
+                    <p>${cadaCartao.descricao}</p>
                     <div id="imageDescription">
-                        <img src="${cadaCartao.srcImg2}" alt="">
+                        <img src="${cadaCartao.srcImg2}" alt="Imagem do autor" class="autor-img">
                         <p>Post por ${cadaCartao.nomePost}</p>
                     </div>
                 </div>
             </div>
-        </div>
-    `;
-});
+        `;
+    });
+}
 
+// Chama a função para renderizar os cards
+renderizarCartoes();
