@@ -153,7 +153,7 @@
 #imageDescription{
 
     display: flex;
-    align-content:first baseline;
+    align-content:baseline;
     align-items: baseline;
     font-size: 10px;
     text-align: justify;
