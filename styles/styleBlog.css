@@ -129,6 +129,11 @@
 #imageDescription {
     display: flex;
     align-items: center;
+    width: 10%;
+   
+}
+#imageDescription img{
+    border-radius: 100%;
 }
 
 
