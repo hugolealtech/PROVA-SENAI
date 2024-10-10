@@ -211,6 +211,59 @@
     height: 400px;
 }
 
+/* SOBRE A EMPRESA  */
+
+
+#sobreAEmpresa{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+    margin-top: 40px;
+ 
+}
+#fotoCliente{
+
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center; 
+ 
+    margin-bottom: 40px;
+}
+.envolveImagens{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #ddd;
+    margin-bottom: 40px;
+  
+    
+}
+
+
+#envolveImagem{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    border: 1px solid #ddd;
+    border-radius: 5px;  
+    box-sizing: border-box;
+   
+   
+
+}
+
+#envolveImagem img{
+    width: 100%;
+}
+
+
 footer{
     text-align: center;
     display: flex;
