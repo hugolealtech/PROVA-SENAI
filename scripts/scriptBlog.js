@@ -13,7 +13,7 @@ const todosCartoes = [];
 
 // Adiciona cards ao array
 todosCartoes.push(new Cartao(
-    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "/img/original/fotos/ben-guerin-NWrye3NRrKw-unsplash.jpg",
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
@@ -22,7 +22,7 @@ todosCartoes.push(new Cartao(
 ));
 
 todosCartoes.push(new Cartao(
-    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "/img/original/fotos/blake-verdoorn-cssvEZacHvQ-unsplash.jpg",
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
@@ -30,8 +30,9 @@ todosCartoes.push(new Cartao(
     "Sérgio"
 ));
 
+
 todosCartoes.push(new Cartao(
-    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "/img/original/fotos/marten-bjork-wGu1pzDSm3g-unsplash.jpg",
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
@@ -39,7 +40,26 @@ todosCartoes.push(new Cartao(
     "Sérgio"
 ));
 todosCartoes.push(new Cartao(
-    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "/img/original/fotos/ben-guerin-NWrye3NRrKw-unsplash.jpg",
+    "RIO DA FELICIDADE", 
+    "Um lugar de paz e tranquilidade", 
+    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
+    "/img/original/time/alice.jpg", 
+    "Alice"
+));
+
+todosCartoes.push(new Cartao(
+    "/img/original/fotos/blake-verdoorn-cssvEZacHvQ-unsplash.jpg",
+    "RIO DA FELICIDADE", 
+    "Um lugar de paz e tranquilidade", 
+    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
+    "/img/original/time/sergio.jpg", 
+    "Sérgio"
+));
+
+
+todosCartoes.push(new Cartao(
+    "/img/original/fotos/marten-bjork-wGu1pzDSm3g-unsplash.jpg",
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
@@ -47,37 +67,25 @@ todosCartoes.push(new Cartao(
     "Sérgio"
 ));
 todosCartoes.push(new Cartao(
-    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "/img/original/fotos/ben-guerin-NWrye3NRrKw-unsplash.jpg",
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
-    "/img/original/time/sergio.jpg", 
-    "Sérgio"
+    "/img/original/time/alice.jpg", 
+    "Alice"
 ));
+
 todosCartoes.push(new Cartao(
-    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
+    "/img/original/fotos/blake-verdoorn-cssvEZacHvQ-unsplash.jpg",
     "RIO DA FELICIDADE", 
     "Um lugar de paz e tranquilidade", 
     "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
     "/img/original/time/sergio.jpg", 
     "Sérgio"
 ));
-todosCartoes.push(new Cartao(
-    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
-    "RIO DA FELICIDADE", 
-    "Um lugar de paz e tranquilidade", 
-    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
-    "/img/original/time/sergio.jpg", 
-    "Sérgio"
-));
-todosCartoes.push(new Cartao(
-    "/img/original/fotos/boxed-water-is-better-LxaorEDmI3c-unsplash.jpg",
-    "RIO DA FELICIDADE", 
-    "Um lugar de paz e tranquilidade", 
-    "Aqui, o criador sussura palavras de sabedoria por meio do som das águas",
-    "/img/original/time/sergio.jpg", 
-    "Sérgio"
-));
+
+
+
 
 // Função para renderizar os cards dinamicamente
 function renderizarCartoes() {
