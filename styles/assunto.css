@@ -1,0 +1,181 @@
+
+
+#header {
+    width: 100%; /* Garante que o header ocupe 100% da largura */
+}
+
+.bg-custom {
+    background-color: #54d069; /* Cor de fundo escura (pode ser alterada) */
+    width: 100%;
+}
+
+.navbar-brand, .nav-link, .name {
+    color: white
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+}
+
+.logo {
+    padding: 10px; /* Adiciona um padding de 10px à imagem */
+    height: 40px; /* Ajuste a altura da imagem conforme necessário */
+}
+
+.name {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    /* Você pode ajustar as margens se necessário */
+}
+
+#secao1,#secao2, #secao3{
+
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: aliceblue;
+    
+}
+
+#tituloSite, #tituloSite2,#tituloSite3{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    padding-left: 50px;
+    justify-content:center;
+    flex-direction: column;
+    font-size: 30%;
+    
+}
+#imgTitulo,#imgTitulo2,#secao3Form{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#imgTitulo2 img{
+    width: 100%;
+    height: 200px;
+}
+
+#imgTitulo img{
+
+    width: 40%;
+    height: auto;
+    border-radius: 100%;
+   
+}
+#s2Title
+{
+    width: 100%;
+    text-align: center;
+    margin: 80px;
+}
+
+#tituloSite2{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    padding-left: 50px;
+    justify-content:start;
+    flex-direction: column;
+    font-size: 30%;
+}
+
+#imgTitulo2 img{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    border-radius: 5%;
+   
+}
+
+#secao3Form{
+
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-content: start;
+    gap: 20px;
+    padding-top: 20px;
+   
+   
+}
+
+
+
+
+
+#assunto{
+ width: 50%;
+height: auto;
+display: flex;
+align-items: center;
+padding-left: 50px;
+justify-content:center;
+flex-direction: column;
+font-size: 30%;
+gap: 20px;
+}
+
+#assunto nav{
+
+ 
+    display: flex;
+    gap: 20px;
+}
+
+#assunto a{
+
+    
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+   
+}
+
+#assunto button{
+
+    background-color: black;
+}
+
+#imagemAssunto{
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#imagemAssunto img{
+
+    width: 70%;
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #54d069;
+    color: antiquewhite;
+}
