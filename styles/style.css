@@ -276,6 +276,11 @@
 #containerConteudo{
     width: 60%;
     background-color: #54d069;
+    display: flex;
+    justify-content: center;
+   
+    display: flexbox;
+    gap:10px
 }
 
 #containerConteudo button{
@@ -292,6 +297,21 @@
     background-color: yellow;
 }
 
+#assunto{
+ width: 50%;
+height: auto;
+display: flex;
+align-items: start;
+padding-left: 50px;
+justify-content:center;
+flex-direction: column;
+font-size: 30%;
+}
+
+
+
+
+
 
 footer{
     text-align: center;
@@ -302,4 +322,3 @@ footer{
     background-color: #54d069;
     color: antiquewhite;
 }
-

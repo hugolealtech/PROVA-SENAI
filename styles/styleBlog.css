@@ -84,8 +84,7 @@
 #sectionCardsMaster{
 
     width: 100%;
-    height: auto;
-   
+    height: auto;   
     display: flex;
     justify-content: center;
 
@@ -103,7 +102,6 @@
 
 .cartao {
     width: calc(25% - 20px); /* Quatro cards por linha */
-
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
