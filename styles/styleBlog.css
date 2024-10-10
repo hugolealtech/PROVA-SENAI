@@ -54,11 +54,11 @@
 
 
 #header {
-    width: 100%; /* Garante que o header ocupe 100% da largura */
+    width: 100%; 
 }
 
 .bg-custom {
-    background-color: #54d069; /* Cor de fundo escura (pode ser alterada) */
+    background-color: #54d069; 
     width: 100%;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .navbar-nav .nav-link {
-    font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+    font-size: 1.1rem; 
 }
 
 .logo {
